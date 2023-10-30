@@ -664,7 +664,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &167446464 stripped
 GameObject:
@@ -1104,9 +1104,9 @@ HingeJoint:
   m_ConnectedAnchor: {x: -0.04199327, y: 0.3950308, z: -12.100012}
   m_UseSpring: 0
   m_Spring:
-    spring: 0
+    spring: 1
     damper: 0
-    targetPosition: 0
+    targetPosition: 120
   m_UseMotor: 0
   m_Motor:
     targetVelocity: 0
@@ -1118,7 +1118,7 @@ HingeJoint:
     max: 120
     bounciness: 0
     bounceMinVelocity: 0.2
-    contactDistance: 0
+    contactDistance: 5
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 1
@@ -4346,7 +4346,7 @@ PrefabInstance:
     - target: {fileID: 992558480225725475, guid: d9470993b9bd0a541a884d6f6704a421,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 992558480225725475, guid: d9470993b9bd0a541a884d6f6704a421,
         type: 3}
@@ -5530,7 +5530,7 @@ Transform:
   - {fileID: 1241307562}
   - {fileID: 1072800030}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1072800029
 PrefabInstance:
@@ -6743,7 +6743,7 @@ Transform:
   m_Children:
   - {fileID: 650672842}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1313711682
 MonoBehaviour:
@@ -9939,7 +9939,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2142688288
 PrefabInstance:
